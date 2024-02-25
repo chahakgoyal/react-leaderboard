@@ -38,7 +38,7 @@ class App extends React.Component {
 		return (
 			<div className="App" style={{color:'white'}}>
 				<div className="new" style={{textAlign:'center', alignItems:'center', alignContent:'center'}}>
-        			<img className="fido" src={Fido}/><h1> LEADERBOARD </h1><img src={Fido}/>
+        			<img className="fido" src={Fido}/><h1> LEADERBOARD </h1><img className="fido" src={Fido}/>
 				</div>
 				<div className="container">
 					
